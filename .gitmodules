@@ -1,0 +1,8 @@
+[submodule "boost"]
+	path = boost
+	url = https://github.com/PlatONnetwork/boost.git
+	branch = master
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/PlatONnetwork/rapidjson.git
+	branch = master
