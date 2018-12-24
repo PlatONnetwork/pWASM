@@ -1,0 +1,9 @@
+file(GLOB PLATON_SOURCE  "src/RLP.cpp")
+
+
+add_wast_library(TARGET libplaton
+        NOWARNINGS
+        SOURCE_FILES ${PLATON_SOURCE}
+        INCLUDE_FOLDERS ${STANDARD_INCLUDE_FOLDERS}
+        DESTINATION_FOLDER ${CMAKE_CURRENT_BINARY_DIR}
+        )
